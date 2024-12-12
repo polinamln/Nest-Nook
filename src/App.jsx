@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <Home></Home>
-      <h1>hi</h1>
     </div>
   );
 }
