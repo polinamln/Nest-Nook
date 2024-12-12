@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./Header.module.css";
+import RedButton from "../RedButton/RedButton";
 
 export default function Header() {
   const [activeLink, setActiveLink] = React.useState("home");
@@ -58,9 +59,7 @@ export default function Header() {
           </li>
         </ul>
 
-        <button type="button" className={css.headerBtn}>
-          Contact Us
-        </button>
+        <RedButton text="Contact Us"></RedButton>
       </nav>
     </div>
   );

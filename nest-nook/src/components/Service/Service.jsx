@@ -1,5 +1,6 @@
 import SectionTitle from "../SectionTitle/SectionTitle";
 import css from "./Service.module.css";
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function Service() {
   return (
@@ -13,7 +14,7 @@ export default function Service() {
         eget dictum Sed ornare cursus sed nunc eget dictum Lorem ipsum dolor sit
         amet, consectetur adipiscing elit. Sed ornare cursus sed nunc eget
         dictum Sed ornare cursus sed nunc eget dictumd nunc eget dictum Sed
-        ornare cursus sed nunc eget dictum{" "}
+        ornare cursus sed nunc eget dictum
       </p>
       <div className={css.line}></div>
 
@@ -21,13 +22,16 @@ export default function Service() {
         <img className={css.img} src="../../../public/assets/second.jpg"></img>
         <ul className={css.ul}>
           <li className={css.li}>
-            <p className={css.liText}>Interior Design</p> x
+            <p className={css.liText}>Interior Design</p>
+            <FaArrowRight className={css.icon} />
           </li>
           <li className={css.li}>
-            <p className={css.liText}>Interior Design</p> x
+            <p className={css.liText}>Construction Consultant</p>
+            <FaArrowRight className={css.icon} />
           </li>
           <li className={css.li}>
-            <p className={css.liText}>Interior Design</p> x
+            <p className={css.liText}>Consultant</p>{" "}
+            <FaArrowRight className={css.icon} />
           </li>
         </ul>
       </div>

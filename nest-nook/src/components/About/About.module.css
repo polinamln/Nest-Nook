@@ -1,0 +1,43 @@
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #333;
+
+  margin-bottom: 40px;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.img {
+  width: 1017px;
+  height: 489px;
+}
+.box {
+  background-color: white;
+  width: 573px;
+  height: 218px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(19, 19, 19, 0.5);
+  line-height: 150%;
+}

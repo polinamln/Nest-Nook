@@ -1,0 +1,38 @@
+.box {
+  /* padding: 0 36px; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.textBox {
+  width: 500px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(19, 19, 19, 0.5);
+  margin-bottom: 12px;
+  line-height: 150%;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.imgBox {
+  display: flex;
+  gap: 20px;
+}

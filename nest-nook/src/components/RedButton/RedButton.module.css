@@ -1,0 +1,13 @@
+.btn {
+  background-color: #903737;
+  border: 1px solid #3c3c3c;
+  padding: 14px 32px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--color);
+
+  cursor: pointer;
+}

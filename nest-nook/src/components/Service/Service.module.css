@@ -1,10 +1,10 @@
 .title {
   font-family: var(--font-family);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 170%;
-  color: #333;
+  line-height: 140%;
   text-align: center;
+  color: #333;
 }
 
 .text {
@@ -15,7 +15,7 @@
   color: rgba(19, 19, 19, 0.5);
   width: 1200px;
 
-  text-align: center;
+  text-align: justify;
   margin-top: 40px;
 }
 
@@ -57,3 +57,29 @@
   line-height: 140%;
   color: #333;
 }
+
+.icon {
+  transition: transform 0.5s ease-in-out;
+  /* animation: move-right 1s ease-in-out infinite; */
+}
+
+.li:hover .icon {
+  transform: translateX(10px);
+}
+
+.li:hover {
+  cursor: pointer;
+}
+
+/* 
+@keyframes move-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
