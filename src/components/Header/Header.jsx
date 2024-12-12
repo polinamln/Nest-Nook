@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Header.module.css";
 import RedButton from "../RedButton/RedButton";
 
-export default function Header() {
+export default function Header({ setModal }) {
   const [activeLink, setActiveLink] = React.useState("home");
 
   return (
@@ -59,7 +59,7 @@ export default function Header() {
           </li>
         </ul>
 
-        <RedButton text="Contact Us"></RedButton>
+        <RedButton onClick={() => setModal(true)} text="Contact Us"></RedButton>
       </nav>
     </div>
   );

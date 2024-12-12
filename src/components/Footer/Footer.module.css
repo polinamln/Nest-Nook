@@ -1,0 +1,57 @@
+.logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000;
+}
+.logoAccent {
+  color: #903737;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  padding-bottom: 18px;
+  border-bottom: 1px solid black;
+}
+
+.text {
+  width: 637px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 18px;
+  color: rgba(19, 19, 19, 0.5);
+}
+
+.footerBoxText {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerNavLink p {
+  text-align: right;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333;
+}
+
+.footerNavLink p:hover {
+  color: #903737;
+}
