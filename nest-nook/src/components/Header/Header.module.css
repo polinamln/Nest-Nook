@@ -1,0 +1,52 @@
+.logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 0;
+}
+
+.logoAccent {
+  color: #903737;
+}
+
+.headerNav {
+  display: flex;
+  gap: 74px;
+}
+
+.headerNavLink {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333;
+}
+
+.headerNavLink:hover {
+  color: #903737;
+}
+
+.headerNavLinkActive {
+  color: #903737;
+}
+
+.headerBtn {
+  background-color: #903737;
+  border: 1px solid #3c3c3c;
+  padding: 14px 32px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--color);
+
+  cursor: pointer;
+}

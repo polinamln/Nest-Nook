@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/myfont.woff2") format("woff2"),
+    url("./fonts/myfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#root {
+  --font-family: "Poppins", sans-serif;
+
+  --color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  line-height: 1;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+.container {
+  margin: 0 120px;
+  max-width: 1200px;
+}
