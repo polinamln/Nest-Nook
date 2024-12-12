@@ -19,7 +19,7 @@ export default function Service() {
       <div className={css.line}></div>
 
       <div className={css.imgMenu}>
-        <img className={css.img} src="../../../public/assets/second.jpg"></img>
+        <img className={css.img} src="/assets/second.jpg"></img>
         <ul className={css.ul}>
           <li className={css.li}>
             <p className={css.liText}>Interior Design</p>
