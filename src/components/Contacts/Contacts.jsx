@@ -1,7 +1,7 @@
 import css from "./Contacts.module.css";
 import classNames from "classnames";
 
-export default function About() {
+export default function About({ setModal }) {
   const email = "test_email@gmail.com";
   const phone = "+3800000000000";
 
@@ -11,7 +11,11 @@ export default function About() {
         <p className={css.title}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <button type="button" className={css.btn}>
+        <button
+          type="button"
+          className={css.btn}
+          onClick={() => setModal(true)}
+        >
           Contact Us
         </button>
       </div>

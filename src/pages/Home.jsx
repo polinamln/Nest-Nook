@@ -21,7 +21,7 @@ export default function Home() {
       <About></About>
       <Material></Material>
       <Products></Products>
-      <Contacts></Contacts>
+      <Contacts setModal={setModal}></Contacts>
       <Footer></Footer>
     </div>
   );
