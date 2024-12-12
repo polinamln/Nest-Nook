@@ -7,8 +7,6 @@
   flex-direction: column;
   gap: 35px;
   padding: 35px 0;
-
-  margin-top: 70px;
 }
 
 .backgr {
@@ -79,6 +77,8 @@
   width: 839px;
   height: 140px;
   padding: 20px;
+
+  resize: none;
 }
 
 .error {
